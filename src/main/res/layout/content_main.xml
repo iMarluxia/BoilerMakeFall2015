@@ -10,5 +10,14 @@
     tools:showIn="@layout/activity_main" tools:context=".MainActivity">
 
     <TextView android:text="@string/joes_string" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/click"
+            android:text="Click Me!"
+            android:layout_below="@id/welcome"
+            android:onClick="buttonClicked"/>
 </RelativeLayout>
