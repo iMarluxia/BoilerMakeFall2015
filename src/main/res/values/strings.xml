@@ -2,4 +2,7 @@
     <string name="app_name">BoilerMakeFall2015</string>
     <string name="joes_string">Joes Change</string>
     <string name="action_settings">Settings, my ass</string>
+    <string name="title_activity_decrement">DecrementActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
 </resources>
